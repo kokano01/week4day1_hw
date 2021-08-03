@@ -31,10 +31,7 @@ WHERE film_id = '1000';
 
 --Question 4
 --How many customers have the last name ‘William’?
-SELECT *
-FROM customer
-
-SELECT last_name
+SELECT COUNT(last_name)
 FROM customer
 WHERE last_name = 'William';
 --- 0 customers
